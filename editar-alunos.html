@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="cadastro-admin.css">
+    <link rel="stylesheet" href="cadastro-aluno.css">
     <script src="/js/script.js" defer></script>
 </head>
 
@@ -16,33 +16,33 @@
         </div>
     </div>
     <div class="boas-vindas">
-        <span>Cadastrar professor</span><br>
-        <span>Preencha as informações solicitadas:</span>
+        <span>Editar aluno</span><br>
+        <span>Digite o CPF para buscar e editar:</span>
     </div>
     <div class="inputs">
         <div id="nome">
             <label for="nome">Nome:</label>
-            <input id="nome" type="text" placeholder="Digite o nome do professor">
+            <input id="nome" type="text" placeholder="Digite o nome do aluno">
         </div><br>
         <div class="inputs" id="CPF">
             <label for="CPF">CPF:</label>
-            <input id="cpf" type="text" placeholder="Digite o CPF do professor">
+            <input id="cpf" type="text" placeholder="Digite o CPF do aluno">
         </div><br>
         <div class="inputs" id="senha">
             <label for="senha">Senha:</label>
-            <input id="senha" type="password" placeholder="Digite a senha do professor">
-        </div><br>
-        <div class="inputs" id="nivel">
-            <label for="treino">Nível:</label>
-            <input id="tipo-treino" type="text" placeholder="Digite o nível do professor">
+            <input id="senha" type="password" placeholder="Digite a senha do aluno">
         </div><br>
         <div class="inputs" id="treino">
             <label for="treino">Treino:</label>
-            <input id="treino" type="text">
+            <input id="tipo-treino" type="text" placeholder="Digite o treino do aluno">
+        </div><br>
+        <div class="inputs" id="nivel">
+            <label for="treino">Nível:</label>
+            <input id="nivel" type="text">
         </div><br>
         <div class="footer">
             <button class="full-rounded">
-                <span>Cadastrar</span>
+                <span>Salvar</span>
                 <div class="border full-rounded"></div>
             </button>
             <a href="home-admin.html" target="_self"><button class="full-rounded">

@@ -114,8 +114,9 @@ button:hover .border {
     font-weight: bold;
     text-decoration: none;
     border: #ED7D31;
-    font-size: 1.2rem;
+    font-size: 1rem;
     height: 2rem;
+    width: 15rem;
 }
 
 .inputs input {
@@ -129,6 +130,6 @@ button:hover .border {
     height: 2rem;
 }
 
-#nivel {
+#treino {
     display: none;
 }
