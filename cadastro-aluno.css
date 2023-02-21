@@ -77,15 +77,14 @@ button:hover .border {
 
 #opcoes-admin button {
     background-color: #ED7D31;
-    margin-top: 2.5rem;
+    margin-top: 1rem;
     display: flex;
     justify-content: center;
-    height: 2.5rem;
 }
 
 .footer button {
     background-color: #ED7D31;
-    margin-top: 2.5rem;
+    margin-top: 1.8rem;
     height: 1rem;
     display: flex;
     justify-content: center;
@@ -94,4 +93,29 @@ button:hover .border {
 .footer span {
     font-size: 1.2rem;
     text-align: center;
+}
+
+.inputs {
+    margin: 0 auto;
+    border: 0.15em solid #000;
+    border-radius: 0.8rem;
+    text-align: center;
+    background-color: #ED7D31;
+    height: 2.5rem;
+    margin-top: 1rem;
+    font-family: 'Calibri';
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.inputs :placeholder-shown {
+    text-align: center;
+    background-color: #ED7D31;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    border: #ED7D31;
+    font-size: 1.2rem;
+    height: 2rem;
+
 }
