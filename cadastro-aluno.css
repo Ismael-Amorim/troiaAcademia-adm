@@ -117,5 +117,15 @@ button:hover .border {
     border: #ED7D31;
     font-size: 1.2rem;
     height: 2rem;
+}
 
+.inputs input {
+    text-align: center;
+    background-color: #ED7D31;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    border: #ED7D31;
+    font-size: 1rem;
+    height: 2rem;
 }
